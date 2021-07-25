@@ -6,7 +6,7 @@
     <meta name="keywords" content="Déco-Pierre, Réinventez votre vie, A propos de nous, Sample Headline">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Accueil</title>
+      <title>Déco-Pierre</title>
       <link rel="stylesheet" href="{{ asset('css/nicepage.css') }}" media="screen">
       <link rel="stylesheet" href="{{ asset('css/Accueil.css') }} " media="screen">
       <script class="u-script" type="text/javascript" src="{{  asset('js/jquery.js') }}" defer=""></script>
@@ -155,7 +155,7 @@
     <section class="u-align-center u-clearfix u-section-5" id="carousel_68cc">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div  class="u-align-center u-gallery u-layout-grid u-lightbox u-show-text-always u-gallery-1" style="margin: 0 auto;">
-          <div class="u-gallery-inner u-gallery-inner-1" >
+          <div class="u-gallery-inner u-gallery-inner-1" style="margin:0 auto;">
               @foreach($cats as $cat)
               <div class="u-gallery-item"  data-href="{{'/produitsf?cat='.$cat->nom}}" data-page-id="23791874">
               <div class="u-back-slide u-back-slide-1" data-image-width="960" data-image-height="720">

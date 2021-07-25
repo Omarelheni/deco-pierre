@@ -6,7 +6,7 @@
     <meta name="keywords" content="Déco-Pierre, Réinventez votre vie">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Formulaire</title>
+      <title>Déco-Pierre</title>
       <link rel="stylesheet" href="{{ asset('css/nicepage.css') }}" media="screen">
       <link rel="stylesheet" href="{{ asset('css/Formulaire.css') }} " media="screen">
       <script class="u-script" type="text/javascript" src="{{  asset('js/jquery.js') }}" defer=""></script>

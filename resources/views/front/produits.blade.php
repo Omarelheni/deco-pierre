@@ -6,8 +6,9 @@
     <meta name="keywords" content="Déco-Pierre, Réinventez votre vie">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Produits</title>
+      <title>Déco-Pierre</title>
       <link rel="stylesheet" href="{{ asset('css/nicepage.css') }}" media="screen">
+      <link rel="stylesheet" href="{{ asset('css/Accueil.css') }} " media="screen">
       <link rel="stylesheet" href="{{ asset('css/Produits.css') }} " media="screen">
       <script class="u-script" type="text/javascript" src="{{  asset('js/jquery.js') }}" defer=""></script>
       <script class="u-script" type="text/javascript" src=" {{ asset('js/nicepage.js') }}" defer=""></script>
@@ -118,12 +119,12 @@
           </nav>
           <a class="u-btn u-button-link u-button-style u-custom-font u-font-arial u-none u-text-body-alt-color u-btn-1" href="/accueil" data-page-id="18964500">Déco-Pierre</a>
       </div></header>
-    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="2794" data-image-height="3834" id="sec-1162">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h1 class="u-custom-font u-font-arial u-text u-text-palette-3-light-2 u-title u-text-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Déco-Pierre</h1>
-        <p class="u-align-center u-custom-font u-font-merriweather u-text u-text-palette-3-light-2 u-text-2">De la pierre...de la vraie</p>
+  <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="2794" data-image-height="3834" id="sec-d75d">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+          <h1 class="u-custom-font u-font-arial u-text u-text-palette-3-light-2 u-title u-text-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Déco-Pierre</h1>
+          <p class="u-align-center u-custom-font u-font-merriweather u-text u-text-palette-3-light-2 u-text-2">De la pierre...de la vraie</p>
       </div>
-    </section>
+  </section>
     <section class="u-clearfix u-white u-section-2" id="sec-cc1f">
       <div class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-container-style u-expanded-width u-group u-shape-rectangle u-group-1">
         <div class="u-container-layout u-container-layout-1">
@@ -139,7 +140,6 @@
             @foreach($cats as $cat)
             <li><a href="#" class="{{ $cat->nom==$categorie ? 'catlink selectedcat': 'catlink' }}">{{$cat->nom}}</a></li>
                 @endforeach
-
         </ul>
     </section>
   <br>
@@ -174,7 +174,7 @@
 
   <section class="u-clearfix u-section-6" id="sec-7632">
       <ul class="nav" id="divpag">
-          @for ($i = 1; $i <= round($nb/2); $i++)
+          @for ($i = 1; $i <= ceil($nb/6); $i++)
 
           <li><a href="#" class="linkpag">{{$i}} </a></li>
           @endfor
@@ -201,30 +201,29 @@
   <script>
       var num = 1 ;
       var i = 0;
-      var nump = 2 ;
+      var nump = 6 ;
       function UpdatePaginate(){
           var next ;
-          while (Math.round(i/nump)!= parseInt($(".linkpag").last().html())  ){
+          while (Math.ceil(i/nump)!= parseInt($(".linkpag").last().html())  ){
               if (i==0){
                   $(".linkpag").remove();
                   $("#divpag").append('<li><a href="#" class="linkpag"> 1 </a></li>');
                   break;
               }
-              if (Math.round(i/nump)< parseInt($(".linkpag").last().html())) {
-                  console.log("inf");
-                  console.log("i="+i);
+              if (Math.ceil(i/nump)< parseInt($(".linkpag").last().html())) {
+
                   console.log($(".linkpag").last().html());
                   $(".linkpag").last().remove();
               }
-              else if (Math.round(i/nump)> parseInt($(".linkpag").last().html()))
+              else if (Math.ceil(i/nump)> parseInt($(".linkpag").last().html()))
               {
-                  console.log("sup");
+                  console.log($(".linkpag").last().html());
 
-                  console.log("i="+i);
                   next  = parseInt($(".linkpag").last().html())+1 ;
                   $("#divpag").append('<li><a href="#" class="linkpag">'+next+'</a></li>');
 
               }
+              console.log($(".linkpag").last().html());
 
           }
 
@@ -263,14 +262,13 @@
               i=0;
               Filtre();
           }
-         UpdatePaginate();
+       UpdatePaginate();
       }
       Filtre();
 
       $(".catlink").click(function (e){
           i = 0;
           e.preventDefault();
-          console.log($(this));
           $('.selectedcat').removeClass('selectedcat');
 
           $(this).addClass('selectedcat');

@@ -109,6 +109,9 @@
 </div>
 
 <!-- JS -->
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>        <!-- jQuery -->
+<script type="text/javascript" src="js/bootstrap-filestyle.min.js"></script>  <!-- http://markusslima.github.io/bootstrap-filestyle/ -->
+<script type="text/javascript" src="js/templatemo-script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Templatemo Script -->
 <script>
