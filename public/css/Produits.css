@@ -77,15 +77,10 @@ nav {
     width: auto;
   }
 }.u-section-2 {
-  min-height: 147px;
+  min-height: 80px;
 }
 
-.u-section-2 .u-group-1 {
-  min-height: 72px;
-  margin-top: 75px;
-  margin-bottom: 0;
-  height: auto;
-}
+
 
 .u-section-2 .u-container-layout-1 {
   padding-left: 60px;
