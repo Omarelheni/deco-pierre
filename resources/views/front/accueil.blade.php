@@ -12,6 +12,7 @@
       <script class="u-script" type="text/javascript" src="{{  asset('js/jquery.js') }}" defer=""></script>
       <script class="u-script" type="text/javascript" src=" {{ asset('js/nicepage.js') }}" defer=""></script>
       <meta name="generator" content="Nicepage 3.19.1, nicepage.com">
+      <link rel=icon href="images/Fichier 1.png" >
 
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i">
@@ -61,7 +62,6 @@
 
                              <img></span>
                               <span class="num">{{session('cart') ? count(session('cart')) : 0}}</span>
-
                           </a>
                       </li></ul>
               </div>
@@ -113,7 +113,7 @@
             <div class="u-align-center u-container-style u-list-item u-repeater-item u-list-item-3" data-animation-name="fadeIn" data-animation-duration="1500" data-animation-delay="0" data-animation-direction="">
               <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3"><span class="u-icon u-icon-circle u-text-palette-3-light-2 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3e8f"></use></svg><svg class="u-svg-content" viewBox="0 0 128 128" id="svg-3e8f"><path d="m93.8 13.5 18.4 25.2h-5.7c-2 0-3.6 1.6-3.6 3.6v77.7h-18.3v-77.7c0-2-1.6-3.6-3.6-3.6h-5.7l18.5-25.2m-22.4 55.6c3.3 0 6 2.7 6 6.1v44.8h-18.4v-44.8c0-3.3 2.7-6.1 6-6.1h6.4m-25.5 19.4c3.3 0 6 2.7 6 6.1v25.4h-18.4v-25.5c0-3.3 2.7-6.1 6-6.1h6.4m-25.6 19.4c3.3 0 6 2.7 6 6.1v6.1h-18.4v-6.1c0-3.3 2.7-6.1 6-6.1h6.4m73.5-107.8-6.4 8.7-18.4 25.2-9.4 12.8h17.1v15.4c-1.6-0.7-3.4-1-5.2-1h-6.5c-7.7 0-13.9 6.3-13.9 14.1v6.3c-1.6-0.7-3.4-1-5.2-1h-6.4c-7.7 0-13.9 6.3-13.9 14.1v6.3c-1.6-0.7-3.4-1-5.2-1h-6.4c-7.7-0.1-14 6.2-14 14v14.1h110.9v-81.3h17.1l-9.4-12.8-18.4-25.2-6.4-8.7z"></path></svg></span>
                 <h6 class="u-align-center u-custom-font u-font-arial u-text u-text-5">Excellence</h6>
-                <p class="u-align-center u-text u-text-6"> L'excellence c'est ce qu'on est connu pour puisqu'on est une entreprise orientée q​ualité produit.</p>
+                <p class="u-align-center u-text u-text-6">Déco-Pierre est une entreprise orientée qualité produit et satisfaction client.
               </div>
             </div>
           </div>
@@ -132,8 +132,9 @@
                 <div class="u-border-1 u-border-palette-3-base u-container-layout u-valign-middle u-container-layout-2">
                   <h4 class="u-align-center u-custom-font u-font-arial u-text u-text-palette-3-light-2 u-text-1">Déco-Pierre</h4>
                   <h4 class="u-align-center u-custom-font u-font-arial u-text u-text-2">A propos de nous</h4>
-                  <p class="u-align-center u-text u-text-3">Nous sommes un groupe de personnes très créatif et très expérimenté en matière de conception de murs, nous avons des produits incroyables qui conviendraient à toute ambiance que vous souhaitez pour vos murs.<br>Nous offrons des pierres&nbsp;extraites des 4 coins du monde juste pour le plaisir de vos yeux.
-                  </p>
+                  <p class="u-align-center u-text u-text-3">
+                      Nous sommes un groupe de personnes créatifs et expérimentés en matière de conception de murs. Nos produits conviennent à tous vos désirs et goûts de décorations murales .
+                      Nous offrons des pierres extraites des quatre coins du monde juste pour le plaisir de vos yeux.                  </p>
                 </div>
               </div>
             </div>
@@ -270,7 +271,7 @@
 
     <footer class="u-border-1 u-border-palette-3-light-1 u-clearfix u-footer u-palette-3-light-3" id="sec-ae6d"><div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-align-center u-social-icons u-spacing-26 u-social-icons-1">
-          <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/Déco-pierre-495073660516957"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-3-dark-1 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0f77"></use></svg><svg class="u-svg-content" viewBox="0 0 24 24" id="svg-0f77"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"></path></svg></span>
+          <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/decopierre2013"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-palette-3-dark-1 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0f77"></use></svg><svg class="u-svg-content" viewBox="0 0 24 24" id="svg-0f77"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"></path></svg></span>
           </a>
           <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/decopierretunisie/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-palette-3-dark-1 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 511 511.9" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a0c9"></use></svg><svg class="u-svg-content" viewBox="0 0 511 511.9" id="svg-a0c9"><path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"></path><path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"></path><path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"></path></svg></span>
           </a>

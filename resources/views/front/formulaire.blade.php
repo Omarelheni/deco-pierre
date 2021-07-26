@@ -13,6 +13,7 @@
       <script class="u-script" type="text/javascript" src=" {{ asset('js/nicepage.js') }}" defer=""></script>    <meta name="generator" content="Nicepage 3.19.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i">
+      <link rel=icon href="images/Fichier 1.png" >
 
 
     <script type="application/ld+json">{
@@ -26,7 +27,7 @@
     <meta property="og:type" content="website">
   </head>
 
-  <body class="u-body u-overlap u-overlap-contrast u-overlap-transparent"><header class="u-clearfix u-custom-color-4 u-header u-sticky u-header" id="sec-6cd2"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+  <body class="u-body "><header class="u-clearfix u-custom-color-4 u-header u-sticky u-header" id="sec-6cd2"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
           <div id="popup1" class="overlay" >
 <div class="popup">
 
@@ -88,12 +89,7 @@
           <a class="u-btn u-button-link u-button-style u-custom-font u-font-arial u-none u-text-body-alt-color u-btn-1" href="/accueil" data-page-id="18964500">Déco-Pierre</a>
       </div></header>
 
-    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="2794" data-image-height="3834" id="sec-5359">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <h1 class="u-custom-font u-font-arial u-text u-text-palette-3-light-2 u-title u-text-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Déco-Pierre</h1>
-        <p class="u-align-center u-custom-font u-font-merriweather u-text u-text-palette-3-light-2 u-text-2">De la pierre...de la vraie</p>
-      </div>
-    </section>
+
 
     <section class="u-clearfix u-white u-section-2" id="sec-5b9c">
       <div class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-container-style u-expanded-width u-group u-shape-rectangle u-group-1">

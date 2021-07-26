@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="{{ asset('css/Accueil.css') }} " media="screen">
       <link rel="stylesheet" href="{{ asset('css/Produits.css') }} " media="screen">
       <link rel="stylesheet" href="{{asset('css/Post-Template.css')}}" media="screen">
+      <link rel=icon href="images/Fichier 1.png" >
 
       <script class="u-script" type="text/javascript" src="{{  asset('js/jquery.js') }}" defer=""></script>
       <script class="u-script" type="text/javascript" src=" {{ asset('js/nicepage.js') }}" defer=""></script>
