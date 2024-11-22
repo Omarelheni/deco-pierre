@@ -14,11 +14,11 @@ class CreateMessagesTable extends Migration
     public function up()
     {
         Schema::create('messages', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('email');
-            $table->string('sujet');
-            $table->longText('contenu');
-            $table->timestamps();
+            $table->id(); // Auto-incrementing primary key
+            $table->string('email'); // 'email' column for storing the email address
+            $table->string('sujet'); // 'sujet' column for the subject of the message
+            $table->text('contenu'); // 'contenu' column for the content of the message
+            $table->timestamps(); // Adds 'created_at' and 'updated_at' columns
         });
     }
 

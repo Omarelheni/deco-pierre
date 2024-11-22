@@ -14,11 +14,11 @@ class CreateShowroomsTable extends Migration
     public function up()
     {
         Schema::create('showrooms', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('image_name');
-            $table->string('adresse');
-            $table->string('adresse_map');
-            $table->timestamps();
+            $table->id(); // Auto-incrementing primary key
+            $table->string('image_name'); // 'image_name' column for storing the showroom image
+            $table->string('adresse'); // 'adresse' column for storing the showroom address
+            $table->string('adresse_map'); // 'adresse_map' column for storing the address map URL or details
+            $table->timestamps(); // Adds 'created_at' and 'updated_at' columns
         });
     }
 

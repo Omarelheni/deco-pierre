@@ -14,9 +14,11 @@ class CreateImagesTable extends Migration
     public function up()
     {
         Schema::create('images', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('image_name');
-            $table->timestamps();
+            $table->id(); // Auto-incrementing primary key
+            $table->string('image_name'); // 'image_name' column
+            $table->unsignedBigInteger('produit_id'); // Foreign key for the 'produit' relation
+            $table->foreign('produit_id')->references('id')->on('produits')->onDelete('cascade'); // Foreign key constraint
+            $table->timestamps(); // Adds 'created_at' and 'updated_at' columns
         });
     }
 
