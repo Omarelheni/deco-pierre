@@ -9,9 +9,9 @@ services:
     container_name: laravel_app
     ports:
       - "9000:9000"
-    volumes:
-    
+    volumes:    
       - ./database/migrations:/var/www/database/migrations
+      - ./app:/var/www/app
 
     networks:
       - laravel_network
