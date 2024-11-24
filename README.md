@@ -26,7 +26,7 @@ Follow the steps below to install and run Deco-Pierre locally using Docker.
 Clone the project repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/deco-pierre.git
+git clone https://github.com/Omarelheni/deco-pierre.git
 cd deco-pierre
 ```
 
